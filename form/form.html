@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal details</legend>
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <label for="food">choose a food</label>
+        <select id="food" name="food">
+            <option value="idly" >idly</option>
+            <option value="dosa">dosa</option>
+            <option value="pongal" selected>Pongal</option>
+        </select>
+        <br>
+        <label for="address">Enter address</label>
+        <br>
+        <textarea name="address"></textarea>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Eduction details</legend>
+        <label for="10th">10 mark</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="12th">12 mark</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="degree">select your degree</label>
+        <br>
+        <input list="degree">
+        <datalist id="degree">
+            <option value="BCA"></option>
+            <option value="Bs.cs"></option>
+            <option value="B.Com"></option>
+            <option value="B.com ca"></option>
+        </datalist>
+    </fieldset>
+    <button>Submit</button>
+    </form>
+</body>
+</html>
