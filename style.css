@@ -1,0 +1,15 @@
+#colorname{
+    color: blue;
+}
+#rgb{
+    color: rgb(101, 50, 10);
+}
+#rgba{
+    color: rgba(30, 100, 10, 1);
+}
+#hexa{
+    color: #bc0345;
+}
+.header #hexa{
+    color: #097;
+}
